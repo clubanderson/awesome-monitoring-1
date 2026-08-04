@@ -26,6 +26,7 @@ Dashboards
 - [Uchiwa](https://uchiwa.io) - Simple dashboard for the Sensu monitoring framework.
 - [Monit](http://mmonit.com/monit/#home) - Small Open Source utility for managing and monitoring Unix systems.
 - [Netdata](https://www.netdata.cloud/agent/) - Troubleshoot slowdowns and anomalies in your infrastructure with thousands of metrics, interactive visualizations, and insightful health alarms.
+- [Kula](https://github.com/c0m4r/kula) - Lightweight, self-contained Linux server monitoring tool
 
 Uptime
 
@@ -41,16 +42,20 @@ Uptime
 - [elmah.io](https://elmah.io/features/uptime-monitoring/) - Uptime monitoring combined with application error logging
 - [StatusList.app](https://statuslist.app) - Uptime monitoring with debug details and hosted status page in one dashboard
 - [Sematext Synthetics](https://sematext.com/synthetic-monitoring) - Website uptime, API, and SSL certificate monitoring.  Includes status pages and scriptable multi-page user transaction monitoring, etc.
+- [SSL Certificate Monitor](https://github.com/brancogao/ssl-certificate-monitor) - Open-source SSL/TLS certificate expiry monitoring tool with web UI and REST API. Checks certificate validity and days until expiration.
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma) - An easy-to-use self-hosted monitoring tool.
 - [Phare](https://phare.io/products/uptime) - Free 100k monitoring events per months, 30s intervals, unlimited users, incident management, and sleek status pages.
 - [API Status Check](https://apistatuscheck.com) - Free real-time status monitoring dashboard for 114+ developer APIs including AWS, Stripe, GitHub, and OpenAI.
 - [Crontiq](https://crontiq.io) - Free cron job monitoring with automatic JSON metric extraction and zero-config anomaly detection. 20 monitors free forever.
+- [Spork](https://sporkops.com) - Uptime monitoring with built-in status pages, CLI, and Terraform provider. Multi-region consensus checks from $4/mo.
+- [FlareWarden](https://flarewarden.com) — Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history.
 
 ## APM
 *Application Performance monitoring*
 
 - [NewRelic](https://newrelic.com) - Complex service for both application and infrastructure monitoring
 - [Last9](https://last9.io/) - OpenTelemetry-native observability platform for APM, metrics, logs, and traces, built to handle high-cardinality data at scale.
+- [Uptrace](https://uptrace.dev) - OpenTelemetry-native APM. 
 - [DataDog](https://www.datadoghq.com) - Complex service for both application and infrastructure monitoring
 - [OverOps](https://www.overops.com) - OverOps provides Automated Root Cause (ARC) analysis to reduce the time to identify and fix critical production application errors.
 - [AppSignal](https://appsignal.com) - Catch errors, track performance, monitor hosts, detect anomalies — all in one tool.
@@ -63,6 +68,7 @@ Uptime
 - [Matomo](https://matomo.org/) - Take back control with Matomo – a powerful web analytics platform that gives you 100% data ownership.
 - [Heap Analytics](https://heap.io/) - Easy event tracking without coding
 - [Screpy](https://screpy.com) - Screpy is a web analyzer and monitoring tool. Its powered by Google Lighthouse.
+- [PageGuard](https://pageguard.org) - Free all-in-one website health scanner powered by Lighthouse. Monitors performance, SEO, accessibility, and best practices with AI-generated action plans and a free REST API.
 - [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and cookie-free web analytics.
 
 ## API Status Aggregation
@@ -74,6 +80,7 @@ Uptime
 ## API Analytics
 
 - [Apitally](https://apitally.io) - Analytics, request logging and monitoring for REST APIs with a focus on simplicity and data privacy.
+- [BurnRate](https://getburnrate.io) - AI coding cost analytics CLI that tracks usage and spend across Claude Code, Cursor, Copilot, Windsurf, Aider, Cline, and Codex. Includes optimization rules and rate limit monitoring.
 
 ## Bug Tracking
 
@@ -122,6 +129,10 @@ Databases
 - [Smokeping](https://oss.oetiker.ch/smokeping/) - SmokePing is a deluxe latency measurement tool.
 - [LibreNMS](https://github.com/librenms/librenms/) - Fork of Observium.
 - [Fluere](https://github.com/SkuldNorniern/fluere) - Versatile network interface monitoring and analysis tool, capable of capturing network packets in pcap format, NetFlow data. supports lua based plugins
+
+## Related
+
+- [Awesome Performance Engineering](https://github.com/be-next/awesome-performance-engineering) - Observability and performance testing tools for performance engineering.
 
 # License
 
